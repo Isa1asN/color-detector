@@ -11,3 +11,6 @@ img = cv2.imread(img_path)
 
 cols = ["color","color_name","hex","R","G","B"]
 csv = pd.read_csv('colors.csv', names=cols, header=None)
+
+cv2.namedWindow('image')
+# cv2.setMouseCallback('image',draw_function)

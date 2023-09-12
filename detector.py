@@ -34,7 +34,7 @@ def getColorName(R,G,B):
             minimum = d
             cname = csv.loc[i,"color_name"]
     return cname
-
+clicked = False
 while(1):
     cv2.imshow("image",img)
     if (clicked):
